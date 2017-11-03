@@ -9,9 +9,9 @@
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
   
        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-       <property name="url" value="jdbc:mysql://52.197.179.62:3306/simplehr" />
+       <property name="url" value="jdbc:mysql://172.16.1.14:3306/simplehr" />
        <property name="username" value="root" />
-       <property name="password" value="Welcome@1234" />
+       <property name="password" value="mypassword" />
     </bean>
     
 </beans>
