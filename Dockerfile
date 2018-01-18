@@ -1,6 +1,7 @@
 FROM maven as builder
 WORKDIR /apps
 COPY . /apps
+RUN pwd
 RUN ls 
 RUN mvn -f /SpringMVCSecurityXML/ clean install
 FROM tomcat
