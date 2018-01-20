@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: java
   labels:
-    name: demo
+    name: java
     app: java
 spec:
   selector:
