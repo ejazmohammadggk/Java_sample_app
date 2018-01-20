@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: DemoService
+  name: demo
   labels:
-    name: DemoService
+    name: demo
     app: java
 spec:
   selector:
-    name: DemoDeployment
+    name: demo
   type: NodePort
   ports:
    - port: 8080
