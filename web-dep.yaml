@@ -15,8 +15,8 @@ spec:
         app: java
     spec:
       containers:
-        - name: test
-          image: test
+        - name: java
+          image: java
           imagePullPolicy: Never
           ports:
           - containerPort: 8080
