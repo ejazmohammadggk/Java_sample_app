@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: DemoService
+  labels:
+    name: DemoService
+    app: java
+spec:
+  selector:
+    name: DemoDeployment
+  type: NodePort
+  ports:
+   - port: 8080
+     targetPort: 8080 
+     protocol: TCP
+     nodePort: 30095
